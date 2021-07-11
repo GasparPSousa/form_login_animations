@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Hover -->
     <link rel="stylesheet" href="./css/hover.css">
+    <!-- Animations -->
+    <link rel="stylesheet" href="./css/animate.css">
     <title>Login</title>
 </head>
 <body>
     <main class="login">
         <div class="login__container">
             <h1 class="login__title">Login</h1>
-            <form class="login__form">
-                <input class="login__input" type="email" placeholder="e-mail">
+            <form id="form" class="login__form">
+                <input class="login__input" type="email" id="email" name="email" placeholder="Digite seu e-mail">
                 <span class="login__input-border"></span>
-                <input class="login__input" type="password" placeholder="senha">
+                <input class="login__input" type="password" id="senha" name="senha" placeholder="Digite sua senha">
                 <span class="login__input-border"></span>
                 <button class="login__submit">Login</button>
                 <a class="login__reset" href="#">Esqueci a senha</a>
