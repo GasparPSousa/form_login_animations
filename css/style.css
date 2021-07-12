@@ -26,7 +26,7 @@ body {
 
 .login__title {
     margin-bottom: 32px;
-    color: #0B1E23
+    color: #8A6DF1
 }
 
 .login__form {
@@ -34,6 +34,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+label {
+   /* display: flex;           
+   flex-direction: row;
+   align-items: flex-end;
+   color: thistle;
+   font-weight: bold; */
+
+   width: 100%;
+   box-sizing: border-box;
+   padding: 0 8px;
+   font-weight: bold;
+   color: #8A6DF1;
+   
 }
 
 .login__input {
@@ -67,6 +82,25 @@ body {
     cursor: pointer;
 
 }
+
+.login__submit:focus {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background:linear-gradient(120deg,#4DE4CF, #8A6DF1, #4DE4CF);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+
 
 .login__reset {
     font-size: 14px;
